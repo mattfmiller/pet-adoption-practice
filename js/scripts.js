@@ -1,5 +1,5 @@
 //Business Logic
-
+var doggyTreat ="yummy";
 var petArray = [];
 
 function Pet(name, type, color, age, adopted) {
