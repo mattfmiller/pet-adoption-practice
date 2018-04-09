@@ -27,6 +27,7 @@ $(function(){
     var inputType = $("#input-type").val();
     var inputColor = $("#input-color").val();
     var inputAge = $("#input-age").val();
+    var inputEyeColor = $("#input-eyeColor").val();
     var pet = new Pet(inputName, inputType, inputColor, inputAge)
     pet.pushPets(this);
     $("#list-of-pets").append("<li id='" + pet.name + "'>" + pet.name + "<button type='button'class='adopt'>Adopt</button></li>")
